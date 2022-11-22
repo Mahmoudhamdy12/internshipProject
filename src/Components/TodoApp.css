@@ -1,0 +1,46 @@
+.todo-app > h1 {
+    text-align: center;
+
+}
+.todo-app .form-control {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-app .form-control input {
+    outline: none;
+    border: 1px solid blueviolet;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 9px;
+    width: 60%;
+}
+.todo-app .btn-submit {
+    background: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.todo-app .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.todo-app .tabs a {
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid black;
+    background: blueviolet;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+.todo-app .tabs a.active {
+    color: black;
+    letter-spacing: 1;
+    border: 2px solid black;
+}

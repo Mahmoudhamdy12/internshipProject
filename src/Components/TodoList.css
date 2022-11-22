@@ -1,0 +1,35 @@
+.todo-list {
+    padding: 20px;
+    background: rgb(138 43 226 / 85%);
+    min-height: 75vh;
+}
+.todo-list .task{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.todo-list .task .done {
+    color: blueviolet;
+}
+.todo-list .task p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+.todo-list svg:last-child {
+    color: #bb2525;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todo-list .btn-move {
+    background: blueviolet;
+    border: none;
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
