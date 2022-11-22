@@ -14,9 +14,11 @@
     margin-bottom: 10px;
 }
 .todo-list .task .done {
-    color: blueviolet;
+    color: #28a745;
+    text-decoration-line: line-through;
 }
 .todo-list .task p {
+    color: black !important;
     font-size: 16px;
     margin-left: 10px;
 }
